@@ -6,10 +6,12 @@ function preload() {
 	audio = loadSound("audio/demo.mp3");
 }
 
+
 function uploaded(file) {
 	uploadLoading = true;
 	uploadedAudio = loadSound(file.data, uploadedAudioPlay);
 }
+
 
 function uploadedAudioPlay(audioFile) {
 
@@ -22,6 +24,7 @@ function uploadedAudioPlay(audioFile) {
 	audio = audioFile;
 	audio.loop();
 }
+
 
 function setup() {
 
@@ -122,6 +125,7 @@ function draw() {
 	}
 
 }
+
 
 function toggleAudio() {
 	if (audio.isPlaying()) {
