@@ -37,33 +37,8 @@ a:focus {
 	pointer-events: none;
 }
 
-/* Header */
-/*
-.codrops-header {
-	position: absolute;
-	left: 0;
-	top: 0;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	width: 100%;
-	padding: 2vmax;
-	z-index: 1;
-}
-
-.codrops-header__title {
-	font-size: 1em;
-	margin: 0;
-	padding: 0 1em;
-	color: #fff;
-}
-
-.codrops-header__tagline {
-	margin: 0;
-}
-*/
 /* Top Navigation Style */
+/*
 .codrops-links {
 	position: relative;
 	display: flex;
@@ -77,8 +52,9 @@ a:focus {
 	margin: 0.25em;
 	padding: 0.25em;
 }
-
+*/
 /* Demo links */
+/*
 .demos {
 	margin: 0 0 0 3rem;
 }
@@ -92,7 +68,7 @@ a:focus {
 .demo--current {
 	color: #fff;
 }
-
+*/
 /* Content */
 .content {
 	padding: 3em 0;
