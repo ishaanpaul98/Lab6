@@ -54,3 +54,9 @@ body {
 	min-height: 100vh; 
 	padding: 0;
 }
+
+.canvas-wrapper {
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+}
