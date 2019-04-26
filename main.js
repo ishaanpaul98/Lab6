@@ -10,3 +10,16 @@ function uploaded(file) {
 	uploadLoading = true;
 	uploadedAudio = loadSound(file.data, uploadedAudioPlay);
 }
+
+function uploadedAudioPlay(audioFile) {
+
+	uploadLoading = false;
+
+	if (audio.isPlaying()) {
+		audio.pause();
+	}
+
+	audio = audioFile;
+	audio.loop();
+}
+
