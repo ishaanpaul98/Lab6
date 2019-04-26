@@ -174,7 +174,7 @@ canvas {
 }
 
 @media screen and (max-width: 55em) {
-	.codrops-header {
+	.myheader {
 		flex-direction: column;
 		justify-content: center;
 	}
