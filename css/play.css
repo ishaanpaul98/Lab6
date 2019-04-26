@@ -37,17 +37,8 @@ a:focus {
 	pointer-events: none;
 }
 
-/* Icons */
-/*
-.icon {
-	display: block;
-	width: 1.5em;
-	height: 1.5em;
-	margin: 0 auto;
-	fill: currentColor;
-}
-*/
 /* Header */
+/*
 .codrops-header {
 	position: absolute;
 	left: 0;
@@ -71,7 +62,7 @@ a:focus {
 .codrops-header__tagline {
 	margin: 0;
 }
-
+*/
 /* Top Navigation Style */
 .codrops-links {
 	position: relative;
