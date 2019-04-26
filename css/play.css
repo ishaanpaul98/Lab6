@@ -37,39 +37,6 @@ a:focus {
 	pointer-events: none;
 }
 
-/* Top Navigation Style */
-/*
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-icon {
-	display: inline-block;
-	margin: 0.25em;
-	padding: 0.25em;
-}
-*/
-/* Demo links */
-/*
-.demos {
-	margin: 0 0 0 3rem;
-}
-
-.demo {
-	margin: 0 1em 0.5em 0;
-	padding: 0 0 0.25em;
-}
-
-.demo:hover,
-.demo--current {
-	color: #fff;
-}
-*/
-/* Content */
 .content {
 	padding: 3em 0;
 }
@@ -198,15 +165,6 @@ canvas {
 }
 
 @media screen and (max-width: 55em) {
-	.codrops-header {
-		flex-direction: column;
-		justify-content: center;
-	}
-	.demos {
-		width: 100%;
-		margin: 1em 0 0;
-		text-align: center;
-	}
 	.toggle-btn {
 		right: 10px;
 		bottom: 5.5em;
