@@ -17,23 +17,7 @@ body {
 .play-1 {
 	color: #2376a5;
 }
-/*
-.demo-2 {
-	color: #c83f2b;
-}
 
-.demo-3 {
-	color: #1d3cbb;
-}
-
-.demo-4 {
-	color: #ffeb3b;
-}
-
-.demo-5 {
-	color: #5b0ff5;
-}
-*/
 a {
 	text-decoration: none;
 	color: inherit;
@@ -54,6 +38,7 @@ a:focus {
 }
 
 /* Icons */
+/*
 .icon {
 	display: block;
 	width: 1.5em;
@@ -61,7 +46,7 @@ a:focus {
 	margin: 0 auto;
 	fill: currentColor;
 }
-
+*/
 /* Header */
 .codrops-header {
 	position: absolute;
