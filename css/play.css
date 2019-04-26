@@ -14,10 +14,10 @@ body {
 	font-size: 0.85rem;
 }
 
-.play-1 {
+.demo-1 {
 	color: #2376a5;
 }
-/*
+
 .demo-2 {
 	color: #c83f2b;
 }
@@ -33,7 +33,7 @@ body {
 .demo-5 {
 	color: #5b0ff5;
 }
-*/
+
 a {
 	text-decoration: none;
 	color: inherit;
