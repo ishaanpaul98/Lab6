@@ -82,3 +82,31 @@ canvas {
 	z-index: 9;
 	overflow: hidden;
 }
+
+.p5_loading__inner {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);  
+	display: flex;
+}
+
+.p5_loading__inner span {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: rgb(255, 255, 255);
+	margin: 0 20px;
+	transform-origin: center;
+	animation: noiseLoad 0.5s infinite ease-in-out alternate;
+}
+
+.p5_loading__inner span:nth-child(2) {
+	animation-delay: 0.33s;
+}
+
+.p5_loading__inner span:nth-child(3) {
+	animation-delay: 0.66s;
+}
