@@ -154,3 +154,21 @@ canvas {
 	-webkit-user-select: none;
 	cursor: pointer;
 }
+
+.upload-btn:hover::before {
+	color: #fff;
+}
+
+.toggle-btn {
+	background: transparent;
+	color: currentColor;
+	right: 2vmax;
+}
+
+.toggle-btn:focus {
+	outline: none;
+}
+
+.toggle-btn:hover {
+	color: #fff;
+}
