@@ -17,12 +17,7 @@ body {
 .play-1 {
 	color: #2376a5;
 }
-/*
-a:hover,
-a:focus {
-	color: #333;
-}
-*/
+
 .hidden {
 	position: absolute;
 	overflow: hidden;
