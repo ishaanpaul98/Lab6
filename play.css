@@ -110,3 +110,16 @@ canvas {
 .p5_loading__inner span:nth-child(3) {
 	animation-delay: 0.66s;
 }
+
+@keyframes noiseLoad {
+	from {
+		transform: scale(0);
+		background: rgb(255, 255, 255);
+	}
+	
+	to {
+		transform: scale(1);
+		background: rgb(0, 0, 0);
+		
+	}
+}
