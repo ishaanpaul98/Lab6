@@ -1,25 +1,28 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,
+
+summary
+{
 	display:block;
 	}
-audio,canvas,video{
+audio,canvas,video
+{
 	display:inline-block;
 	}
-audio:not([controls]){
-	display:none;
-	height:0;
-	}
-[hidden]{
-	display:none;
-	}
+audio:not([controls])
+{
+	display:none;height:0;
+	}[hidden]{display:none;}
 html{
 	font-family:sans-serif;
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%;
 	}
-body{
+body
+{
 	margin:0;
 	}
-a:focus{
+a:focus
+{
 	outline:thin dotted;
 	}
 a:active,a:hover{
@@ -43,8 +46,7 @@ hr{
 	box-sizing:content-box;
 	height:0;
 	}
-mark{
-	background:#ff0;
+mark{background:#ff0;
 	color:#000;
 	}
 code,kbd,pre,samp{
