@@ -23,3 +23,26 @@ function uploadedAudioPlay(audioFile) {
 	audio.loop();
 }
 
+function setup() {
+
+	uploadAnim = select('#uploading-animation');
+
+	createCanvas(windowWidth, windowHeight);
+
+	toggleBtn = createButton("Play / Pause");
+
+	uploadBtn = createFileInput(uploaded);
+
+	uploadBtn.addClass("upload-btn");
+
+	toggleBtn.addClass("toggle-btn");
+	
+	toggleBtn.mousePressed(toggleAudio);
+
+
+	fft = new p5.FFT();
+
+	audio.loop();
+
+}
+
