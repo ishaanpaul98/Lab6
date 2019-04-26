@@ -5,3 +5,8 @@ var uploadLoading = false;
 function preload() {
 	audio = loadSound("audio/demo.mp3");
 }
+
+function uploaded(file) {
+	uploadLoading = true;
+	uploadedAudio = loadSound(file.data, uploadedAudioPlay);
+}
