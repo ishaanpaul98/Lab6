@@ -172,3 +172,26 @@ canvas {
 .toggle-btn:hover {
 	color: #fff;
 }
+
+@media screen and (max-width: 55em) {
+	.codrops-header {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.demos {
+		width: 100%;
+		margin: 1em 0 0;
+		text-align: center;
+	}
+	.toggle-btn {
+		right: 10px;
+		bottom: 5.5em;
+		width: calc(100% - 20px);
+	}
+	.upload-btn::before {
+		position: absolute;
+		bottom: 9em;
+		left: 10px;
+		width: calc(100% - 20px);
+	}
+}
