@@ -25,3 +25,16 @@ body {
 	height: 0;
 	pointer-events: none;
 }
+
+.myheader {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	padding: 2vmax;
+	z-index: 1;
+}
