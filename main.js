@@ -122,3 +122,16 @@ function draw() {
 	}
 
 }
+
+function toggleAudio() {
+	if (audio.isPlaying()) {
+		audio.pause();
+	} else {
+		audio.play();
+	}
+}
+
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
+}
