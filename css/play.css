@@ -17,13 +17,13 @@ body {
 .play-1 {
 	color: #2376a5;
 }
-
+/*
 a {
 	text-decoration: none;
 	color: inherit;
 	outline: none;
 }
-
+*/
 a:hover,
 a:focus {
 	color: #333;
