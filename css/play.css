@@ -14,28 +14,11 @@ body {
 	font-size: 0.85rem;
 }
 
-.demo-1 {
+.play-1 {
 	color: #2376a5;
-}
-
-.demo-2 {
-	color: #c83f2b;
-}
-
-.demo-3 {
-	color: #1d3cbb;
-}
-
-.demo-4 {
-	color: #ffeb3b;
-}
-
-.demo-5 {
-	color: #5b0ff5;
-}
-
 a {
 	text-decoration: none;
+}
 	color: inherit;
 	outline: none;
 }
